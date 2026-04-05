@@ -3,14 +3,11 @@
 {% block content %}
 <h1>{{ config.title }}</h1>
 
-{% for page in section.pages | reverse %}
-{% set full = get_page(path=page.relative_path) %}
+{% set post = get_page(path="posts/2026-04-05-hello-world.md") %}
 <hr>
-<h2>{{ full.title }}</h2>
-<time>{{ full.date | date(format="%B %d, %Y") }}</time>
+<h2>{{ post.title }}</h2>
+<time>{{ post.date | date(format="%B %d, %Y") }}</time>
 
-{{ full.content | safe }}
-
-{% endfor %}
+{{ post.content | safe }}
 
 {% endblock content %}

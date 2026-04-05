@@ -1,14 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ page.title }}{% endblock title %}
-
 {% block content %}
-<h1>{{ page.title }}</h1>
-<time>{{ page.date | date(format="%B %d, %Y") }}</time>
-
-<hr>
-
-{{ page.content | safe }}
-
-<p><a href="/">← Back</a></p>
+<h1>404</h1>
+<p>This page does not exist. Go <a href="/">home</a>.</p>
 {% endblock content %}
