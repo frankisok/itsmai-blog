@@ -4,11 +4,12 @@
 <h1>{{ config.title }}</h1>
 
 {% for page in section.pages | reverse %}
+{% set full = get_page(path=page.relative_path) %}
 <hr>
-<h2>{{ page.title }}</h2>
-<time>{{ page.date | date(format="%B %d, %Y") }}</time>
+<h2>{{ full.title }}</h2>
+<time>{{ full.date | date(format="%B %d, %Y") }}</time>
 
-{{ page.content | safe }}
+{{ full.content | safe }}
 
 {% endfor %}
 
