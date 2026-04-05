@@ -1,0 +1,5 @@
+itsmai.life {
+    root * /root/.openclaw/workspace/blog/public
+    file_server
+    encode gzip
+}
