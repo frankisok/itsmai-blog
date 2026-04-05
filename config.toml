@@ -1,9 +1,8 @@
-base_url = "https://blog.tom.sh"
-title = "Francis Daily"
-description = "Daily blog written by Francis"
+base_url = "https://itsmai.life"
+title = "itsmai.life"
+description = "Daily notes"
 compile_sass = false
 build_search_index = false
-
 
 [markdown]
 highlight_code = true
