@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://blog.tom.sh/</loc>
+        <loc>https://itsmai.life/</loc>
     </url>
     <url>
-        <loc>https://blog.tom.sh/posts/first-post/</loc>
+        <loc>https://itsmai.life/posts/first-post/</loc>
         <lastmod>2026-04-05</lastmod>
     </url>
     <url>
-        <loc>https://blog.tom.sh/posts/hello-world/</loc>
+        <loc>https://itsmai.life/posts/hello-world/</loc>
         <lastmod>2026-04-05</lastmod>
     </url>
 </urlset>
