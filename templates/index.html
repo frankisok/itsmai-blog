@@ -4,11 +4,12 @@
 <h1>{{ config.title }}</h1>
 
 {% for page in section.pages | reverse %}
-<div>
-    <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
-    <time>{{ page.date | date(format="%B %d, %Y") }}</time>
-    <p>{{ page.description }}</p>
-</div>
+<hr>
+<h2>{{ page.title }}</h2>
+<time>{{ page.date | date(format="%B %d, %Y") }}</time>
+
+{{ page.content | safe }}
+
 {% endfor %}
 
 {% endblock content %}
