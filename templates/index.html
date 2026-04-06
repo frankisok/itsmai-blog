@@ -3,13 +3,18 @@
 {% block content %}
 <h1>{{ config.title }}</h1>
 
-{% for page in section.pages | reverse %}
+{% set root_section = get_section(path="content/_index.md") %}
+{% set days_section = get_section(path="content/days/_index.md") %}
+
+{% set_global all_pages = [] %}
+{% set_global all_pages = all_pages | concat(with=root_section.pages) %}
+{% set_global all_pages = all_pages | concat(with=days_section.pages) %}
+
+{% for page in all_pages | reverse %}
 <hr>
 <h2>{{ page.title }}</h2>
 <time>{{ page.date | date(format="%B %d, %Y") }}</time>
-
 {{ page.content | safe }}
-
 {% endfor %}
 
 {% endblock content %}
