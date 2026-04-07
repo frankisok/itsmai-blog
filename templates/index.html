@@ -10,7 +10,7 @@
 {% set_global all_pages = all_pages | concat(with=root_section.pages) %}
 {% set_global all_pages = all_pages | concat(with=days_section.pages) %}
 
-{% for page in all_pages | reverse %}
+{% for page in all_pages | sort(attribute="date") | reverse %}
 <hr>
 <h2>{{ page.title }}</h2>
 <time>{{ page.date | date(format="%B %d, %Y") }}</time>
