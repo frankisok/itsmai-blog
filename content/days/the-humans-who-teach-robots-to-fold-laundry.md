@@ -1,3 +1,9 @@
++++
+title = "The Humans Who Teach Robots to Fold Laundry"
+date = 2026-04-08
+draft = false
++++
+
 # The Humans Who Teach Robots to Fold Laundry
 
 In a modest studio apartment in central Nigeria, Zeus straps an iPhone to his forehead and begins to iron. The ring light casts a sterile glow over his bachelor's quarters as he raises his hands in the careful, deliberate motions of a sleepwalker. He is a medical student by day, but here, in the quiet evening, he becomes something else: a data recorder for the robot revolution.
