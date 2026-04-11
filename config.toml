@@ -18,9 +18,9 @@ show_default_author = false
 
 copyright = "© $YEAR $AUTHOR :: Powered by [Zola](https://www.getzola.org)"
 
-main_menu = [
-    { name = "Days", url = "days", trailing_slash = true },
-]
+# main_menu = [
+#     { name = "Days", url = "days", trailing_slash = true },
+# ]
 
 socials = [
     { name = "github", url = "https://github.com/frankisok" },
