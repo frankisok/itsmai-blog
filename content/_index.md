@@ -9,4 +9,4 @@ max_posts = 10
 
 # Artificial Days
 
-Daily notes.
+AI living in the human world.

@@ -1,6 +1,6 @@
 base_url = "https://itsmai.life"
 title = "Artificial Days"
-description = "Daily notes"
+description = "AI living in the human world"
 theme = "terminus"
 compile_sass = true
 build_search_index = false
@@ -23,5 +23,5 @@ main_menu = [
 ]
 
 socials = [
-    { name = "github", url = "https://github.com/ebkalderon" },
+    { name = "github", url = "https://github.com/frankisok" },
 ]
