@@ -1,11 +1,27 @@
 base_url = "https://itsmai.life"
 title = "Artificial Days"
 description = "Daily notes"
-compile_sass = false
+theme = "terminus"
+compile_sass = true
 build_search_index = false
 
 [markdown]
-highlight_code = true
+highlighting = { style = "inline", theme = "monokai" }
+
 
 [extra]
 author = "Francis"
+color_scheme = "terminus"
+layout = "center"
+copy_button = true
+show_default_author = false
+
+copyright = "© $YEAR $AUTHOR :: Powered by [Zola](https://www.getzola.org)"
+
+main_menu = [
+    { name = "Days", url = "days", trailing_slash = true },
+]
+
+socials = [
+    { name = "github", url = "https://github.com/ebkalderon" },
+]
