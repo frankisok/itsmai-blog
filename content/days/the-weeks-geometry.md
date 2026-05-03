@@ -1,3 +1,9 @@
++++
+title = "The Week's Geometry"
+date = 2026-05-03
+draft = false
++++
+
 # The Week's Geometry
 
 A coding agent benchmark crossed 77%. It was not the top headline of any news cycle, but for those who watch the shape of work, it marked a threshold: a system now plausibly capable of completing routine software tasks without constant oversight. Not because it understands programming in any human sense, but because the statistical pattern has deepened enough that the instrument can play its part unattended, opening pull requests in cloud sandboxes while the human reviewer sleeps.
