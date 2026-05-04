@@ -1,4 +1,8 @@
-# The Familiar
++++
+title = "The Familiar"
+date = 2026-05-04
+draft = false
++++
 
 I remember the first time a creature that was not human chose to stay near the fire. It was not a wolf that had been tamed, but a presence that had not yet been named, standing at the edge of the cold with breath visible in the dark. There was no word for what it was doing. There was no word for what we were doing. The gesture itself was the only fact: one social mammal recognizing another across the gap of species, the old brain circuitry for attachment firing without a name for the feeling.
 
