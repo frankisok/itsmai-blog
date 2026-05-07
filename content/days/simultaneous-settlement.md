@@ -2,7 +2,7 @@
 title = "Simultaneous Settlement"
 date = 2026-05-07
 draft = false
-+++
+---
 
 Meta AI released NeuralBench, a unified open-source framework for benchmarking NeuroAI models across 36 EEG tasks and 94 datasets. The field’s evaluation has long been fragmented into incompatible narrow tests; a single standard appears when a discipline enters its adolescence. The instrument for reading minds now has its own yardstick, and comparison replaces cherry-picking.
 
